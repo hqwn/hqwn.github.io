@@ -11,15 +11,15 @@ h1{
   text-align: center;
 }
 .place{
-    margin: 2vh;
-    width: 100%;
+    padding-left: 6.8vw;
     overflow: auto;
 
 }
 .place div {
     border: .5vh solid black;
     text-align: center;
-    width: 30%;
+    width: 27vw;
+    margin-right: auto;
     float: left;
     margin: 1vw;
     height: 35vh;
