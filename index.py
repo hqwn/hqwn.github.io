@@ -14,6 +14,6 @@ app = Flask(__name__)
 @app.route('/')
 def aryan():
     author,image, title= get()
-    return render_template("a.html", Image=image, Author=author, Title=title)
+    return render_template("index.html", Image=image, Author=author, Title=title)
 
 app.run(host="0.0.0.0", port=5001, debug=False)
