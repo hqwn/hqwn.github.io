@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body{
+  background-color: #352803;
+  color: white;
+  font-family: "Handlee", cursive;
+  font-weight: 200;
+  font-size: 20;
+  font-style: normal;
+}
+h1{
+  text-align: center;
+}
+.place{
+    margin: 2vh;
+    width: 100%;
+    overflow: auto;
+
+}
+.place div {
+    border: .5vh solid black;
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin: 1vw;
+    height: 35vh;
+    border-radius: 2vw;
+    background-color: #B7B5B3;
+}
