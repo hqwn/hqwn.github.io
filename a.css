@@ -13,16 +13,16 @@ h1{
 .place{
     display: flex; 
     justify-content: center; 
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
-
+    margin-right: 5px;
 }
 .place div {
     border: .5vh solid black;
     text-align: center;
-    min-width: 200px;
-    width: 27vw;
-    margin-right: auto;
-    float: left;
+    min-width: 400px;
+    width: 30vw;
     margin: 1vw;
     height: 35vh;
     max-height: 35vh;
