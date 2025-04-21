@@ -11,18 +11,21 @@ h1{
   text-align: center;
 }
 .place{
-    padding-left: 6.8vw;
-    overflow: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 
 }
 .place div {
     border: .5vh solid black;
     text-align: center;
+    min-width: 200px;
     width: 27vw;
     margin-right: auto;
     float: left;
     margin: 1vw;
     height: 35vh;
+    max-height: 35vh;
     border-radius: 2vw;
     background-color: #B7B5B3;
 }
